@@ -47,10 +47,10 @@ jobs:
           mkdir -p screenshots
           mkdir -p logs
 
-      - name: Install Firefox
+      - name: Install Firefox and GeckoDriver
         run: |
           sudo apt-get update
-          sudo apt-get install -y firefox
+          sudo apt-get install -y firefox firefox-geckodriver libgtk-3-0 libdbus-glib-1-2
 
       - name: Set timezone to IST
         run: sudo timedatectl set-timezone Asia/Kolkata
