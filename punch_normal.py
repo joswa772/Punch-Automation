@@ -139,7 +139,6 @@ def punch_normal(force_punch_type=None):
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-
     driver = webdriver.Firefox(
         service=Service(GeckoDriverManager().install()),
         options=options
