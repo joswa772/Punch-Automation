@@ -1,0 +1,6 @@
+pytz
+selenium
+python-dotenv
+schedule
+requests
+webdriver-manager

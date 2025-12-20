@@ -1,0 +1,8 @@
+2025-08-08 10:52:04,815 INFO: ====== WebDriver manager ======
+2025-08-08 10:52:06,688 INFO: Get LATEST geckodriver version for 141.0 firefox
+2025-08-08 10:52:08,970 INFO: Get LATEST geckodriver version for 141.0 firefox
+2025-08-08 10:52:09,731 INFO: Driver [C:\Users\joswa\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-08-08 10:52:16,200 INFO: Opened Punch Portal.
+2025-08-08 10:52:42,192 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EF3D6A010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ea624bc4-f055-4f9e-81a2-39c434658189
+2025-08-08 10:52:46,292 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EF3D69210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ea624bc4-f055-4f9e-81a2-39c434658189
+2025-08-08 10:52:50,373 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026EF3D6A390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ea624bc4-f055-4f9e-81a2-39c434658189
