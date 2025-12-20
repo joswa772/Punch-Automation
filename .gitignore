@@ -1,4 +1,5 @@
 geckodriver.exe
 venv
 .venv
-
+.evnv
+__pycache__/

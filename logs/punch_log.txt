@@ -634,3 +634,55 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-20 12:52:14,082 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7365F6350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/190b0f79-e65a-4e7e-8d50-fdd5e54ecede
 2025-12-20 12:52:18,165 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D7369BC3E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/190b0f79-e65a-4e7e-8d50-fdd5e54ecede
 2025-12-20 12:52:22,221 INFO: Browser closed.
+2025-12-20 15:01:49,179 INFO: Punch process started.
+2025-12-20 15:01:49,181 INFO: Login successful
+2025-12-20 15:01:49,181 INFO: Clicked Punch In
+2025-12-20 15:01:49,181 INFO: Punch process completed.
+2025-12-20 15:01:49,191 INFO: ====== WebDriver manager ======
+2025-12-20 15:01:51,410 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:01:51,923 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:01:52,331 INFO: Driver [C:\Users\all okkkk\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-12-20 15:02:03,223 INFO: Started punch automation and opened URL.
+2025-12-20 15:02:36,294 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001360FFBE850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/26e59c96-e08a-46f5-91ea-d3a606f27270
+2025-12-20 15:02:40,354 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001360FFBE210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/26e59c96-e08a-46f5-91ea-d3a606f27270
+2025-12-20 15:02:44,431 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013610348640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/26e59c96-e08a-46f5-91ea-d3a606f27270
+2025-12-20 15:02:48,483 INFO: Browser closed.
+2025-12-20 15:03:19,271 INFO: ====== WebDriver manager ======
+2025-12-20 15:03:20,842 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:03:21,225 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:03:21,343 INFO: Driver [C:\Users\all okkkk\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-12-20 15:03:30,786 INFO: Started punch automation and opened URL.
+2025-12-20 15:04:23,930 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE7A076C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be9b9e5a-708f-4a0d-a70f-b6eba97a297b
+2025-12-20 15:04:28,025 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE7A076350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be9b9e5a-708f-4a0d-a70f-b6eba97a297b
+2025-12-20 15:04:32,094 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FE7A4383E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be9b9e5a-708f-4a0d-a70f-b6eba97a297b
+2025-12-20 15:04:36,166 INFO: Browser closed.
+2025-12-20 15:10:01,058 INFO: Punch process started.
+2025-12-20 15:10:01,059 INFO: Login successful
+2025-12-20 15:10:01,059 INFO: Clicked Punch In
+2025-12-20 15:10:01,059 INFO: Punch process completed.
+2025-12-20 15:10:01,065 INFO: ====== WebDriver manager ======
+2025-12-20 15:10:02,662 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:10:03,087 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:10:03,470 INFO: Driver [C:\Users\all okkkk\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-12-20 15:13:19,151 INFO: Punch process started.
+2025-12-20 15:13:19,151 INFO: Login successful
+2025-12-20 15:13:19,151 INFO: Clicked Punch In
+2025-12-20 15:13:19,151 INFO: Punch process completed.
+2025-12-20 15:13:19,156 INFO: ====== WebDriver manager ======
+2025-12-20 15:13:20,594 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:13:21,058 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:13:21,177 INFO: Driver [C:\Users\all okkkk\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-12-20 15:13:28,684 INFO: Started punch automation and opened URL.
+2025-12-20 15:13:59,187 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017572A7E850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b5ce3a4e-9d46-4cad-9618-9a878d34e082
+2025-12-20 15:14:03,236 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017572A7E210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b5ce3a4e-9d46-4cad-9618-9a878d34e082
+2025-12-20 15:14:07,305 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017572E08640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b5ce3a4e-9d46-4cad-9618-9a878d34e082
+2025-12-20 15:14:11,362 INFO: Browser closed.
+2025-12-20 15:15:18,589 INFO: ====== WebDriver manager ======
+2025-12-20 15:15:19,713 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:15:20,957 INFO: Get LATEST geckodriver version for 146.0 firefox
+2025-12-20 15:15:21,434 INFO: Driver [C:\Users\all okkkk\.wdm\drivers\geckodriver\win64\v0.36.0\geckodriver.exe] found in cache
+2025-12-20 15:15:28,977 INFO: Started punch automation and opened URL.
+2025-12-20 15:16:20,447 WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9E6E6C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/91d1e7d3-3b4f-432e-b4ed-ecd6295cc7a9
+2025-12-20 15:16:24,529 WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9E6E6350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/91d1e7d3-3b4f-432e-b4ed-ecd6295cc7a9
+2025-12-20 15:16:28,597 WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F9EAA83E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/91d1e7d3-3b4f-432e-b4ed-ecd6295cc7a9
+2025-12-20 15:16:32,688 INFO: Browser closed.

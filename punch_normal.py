@@ -1,4 +1,5 @@
 import os
+import platform
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -138,10 +139,21 @@ def punch_normal(force_punch_type=None):
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Firefox(options=options, service=Service(GeckoDriverManager().install()))
+
+    if platform.system() == "Linux":
+        options.binary_location = "/usr/bin/firefox"
+    elif platform.system() == "Windows":
+        options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+
+    driver = webdriver.Firefox(
+    service=Service(GeckoDriverManager().install()),
+    options=options
+)
+    # driver = webdriver.Firefox(options=options, service=Service(GeckoDriverManager().install()))
     driver.get(URL)
     driver.maximize_window()
     logging.info('Started punch automation and opened URL.')
+
 
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC

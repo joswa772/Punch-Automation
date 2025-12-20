@@ -1,4 +1,5 @@
 import os
+import platform
 import time
 import logging
 from datetime import datetime
@@ -46,7 +47,17 @@ def punch_site(force_punch_type=None):
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    driver = webdriver.Firefox(options=options, service=Service(GeckoDriverManager().install()))
+
+    if platform.system() == "Linux":
+        options.binary_location = "/usr/bin/firefox"
+    elif platform.system() == "Windows":
+        options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+
+    driver = webdriver.Firefox(
+    service=Service(GeckoDriverManager().install()),
+    options=options
+)
+
     driver.get(URL)
     driver.maximize_window()
     logging.info('Started punch automation and opened URL.')
