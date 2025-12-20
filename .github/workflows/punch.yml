@@ -2,7 +2,6 @@ name: Daily Punch
 
 on:
   schedule:
-    # Converted IST to UTC
     - cron: '29 3 * * 1-6'   # 08:58 AM IST (Mon–Sat)
     - cron: '35 12 * * 1-6'  # 06:05 PM IST (Mon–Sat)
   workflow_dispatch:
@@ -34,11 +33,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Firefox
+        run: sudo apt update && sudo apt install -y firefox
+
       - name: Set timezone to IST
         run: sudo timedatectl set-timezone Asia/Kolkata
-        
+
       - name: Run Normal Punch Script
         run: python punch_normal.py
 
       - name: Run Site Punch Script
         run: python punch_site.py
+
+      - name: Upload Screenshots
+        uses: actions/upload-artifact@v3
+        with:
+          name: punch-screenshots
+          path: screenshots/
