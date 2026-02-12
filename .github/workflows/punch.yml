@@ -50,8 +50,8 @@ jobs:
       - name: Run Normal Punch Script
         run: python punch_normal.py
 
-      - name: Run Site Punch Script
-        run: python punch_site.py
+ #     - name: Run Site Punch Script
+     #   run: python punch_site.py
 
       - name: Upload Screenshots
         if: always()
